@@ -1,0 +1,32 @@
+.carousel-indicators li{
+    margin: 0 8px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(247, 211, 7);
+}
+#userDetails{
+    min-height: 700px;
+}
+.insertBtn{
+    border: none;
+    font-size: 25px;
+    background-color: transparent;
+}
+.insertBtn :hover{
+    color: orange;
+}
+table .delBtn,.updateBtn{
+    border: none;
+    background-color: transparent;
+    color: rgb(160, 157, 151);
+}
+table .delBtn:hover,.updateBtn :hover{
+    color: orange;
+}
+.update{
+    padding-top: 30px;
+    position: absolute;
+    display: none;
+    background-color: aquamarine;
+}
